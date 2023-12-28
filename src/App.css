@@ -17,7 +17,7 @@
   --photo: #4cb256;
   --video: #4a4eb7;
   --location: #ef5757;
-  --shedule: #e1ae4a;
+  --schedule: #e1ae4a;
 }
 
 body {
@@ -38,4 +38,23 @@ body {
   border-radius: 50%;
   background: #a6ddf0;
   filter: blur(72px);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 2px solid #f3f3f3;
+  border-radius: 0.5rem;
+  background: var(--buttonBg);
+  transition: all 100ms ease-out;
+  padding: 3px 7px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--oragne);
+  background: transparent;
+  border: 2px solid var(--orange);
 }
