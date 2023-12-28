@@ -5,11 +5,13 @@ import PostSide from "../../components/PostSide/PostSide";
 
 const home = () => {
   return (
-    <div className="home">
-      <ProfileSide />
-      <PostSide />
-      <div className="rightSide">RightSide</div>
-    </div>
+    <>
+      <div className="home">
+        <ProfileSide />
+        <PostSide />
+        <div className="rightSide">RightSide</div>
+      </div>
+    </>
   );
 };
 
